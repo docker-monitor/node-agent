@@ -1,7 +1,7 @@
 # node agent
 
 ## Description
-    It`s a node agent for docker monitor, it`s help auto register you exporter service to consul by consulgw. For docker monitor has two type exporter by default, you can see expoter part.
+It is a node agent for docker monitor, it is help auto register you exporter service to consul by consulgw. For docker monitor has two type exporter by default, you can see expoter part.
 
 ## Run
 
@@ -13,9 +13,7 @@
     ```
 * Start
 > when you start node-agent, you need make sure your node exporter and consulge has running.
-
-    * copy docker-compose.yaml to your docker server
-    * start
-        ```bash
-        docker-compose up -d
-        ```
+* copy docker-compose.yaml to your docker server
+    ```bash
+    docker-compose up -d
+    ```
