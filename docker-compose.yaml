@@ -1,0 +1,5 @@
+consul-agent:
+  image: node-agent:v1.0.0
+  net: "host"
+  environment:
+    API_HOST: "your consulgw host"
